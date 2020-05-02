@@ -52,6 +52,7 @@ nav {
     font-size: larger;
     font-family: Helvetica, Verdana, Arial, "Microsoft YaHei", "微软雅黑", STheiti, "华文细黑",  sans-serif;
     font-weight: 800;
+    color: #999;
     border-bottom: 2px solid #999;
     margin-bottom: 16px;
 }
@@ -75,12 +76,12 @@ nav li {
 }
 
 nav a:link, nav a:visited, nav a:active {
-    color: #000;
+    color: #999;
     text-decoration: none;
 }
 
 nav a:hover{
-    color: #999;
+    color: #000;
     /* font-weight: 800; */
 }
 
@@ -103,7 +104,7 @@ code {
 .card-title {
     padding: 12px 12px 4px 12px;
     font-size: xx-large;
-    font-family: Georgia, 'Times New Roman', Times, STKaiti, KaiTi, serif;
+    font-family: 'Times New Roman', Times, STKaiti, KaiTi, serif;
     font-weight: 500;
 }
 
@@ -221,15 +222,21 @@ img {
 .badge {
     display: inline-block;
     /* padding: 0.25em 0.4em; */
+    font-family: Helvetica, Verdana, Arial, "Microsoft YaHei", "微软雅黑", STheiti, "华文细黑",  sans-serif;
     font-size: 75%;
     line-height: 1;
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    /* border-radius: 0.25rem; */
-    padding: 3px;
-    border: #666 1px solid;
+    color: #999;
+    border: #999 1px dotted;
+    padding: 4px;
     cursor: pointer;
+}
+
+.badge:hover {
+    color: #fff;
+    background-color: #999;
 }
 
 article {
@@ -248,7 +255,7 @@ article h4,
 article h5,
 article h6 {
     font-weight: 500;
-    font-family: Georgia, 'Times New Roman', Times, STKaiti, KaiTi, serif;
+    font-family: 'Times New Roman', Times, STKaiti, KaiTi, serif;
 }
 
 article h2,
